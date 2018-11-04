@@ -1,0 +1,136 @@
+body {
+    background-image: url(../images/wheat.png);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/** Header **/
+
+header {
+    width: 100%;
+    background-color: white;
+    height: 58px;
+   
+}
+
+.nav-brand {
+    width: 100%;
+    background-color: white;
+    margin: auto 0;
+}
+
+.navbar a {
+    color: #4aaaa5;
+}
+
+
+.navbar-toggler {
+    background-color: white;
+}
+
+
+/* middle section */
+
+
+
+.col-md-14 {
+    background-color: white;
+    width: 100%;
+    border: 2px solid #dddddd;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+#about h1 {
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    text-decoration: bold;
+    padding-top: 40px;
+    padding-bottom: 32px;
+    font-weight: bolder;
+    color: #4aaaa5;
+}
+
+
+
+/** Page2 - middle section **/
+
+.two {
+    padding-top: 20px;
+}
+
+.row-2 {
+    padding-top: 30px;
+}
+
+.card-body {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+
+
+/** Page3 middle section - Contact **/
+
+
+
+
+.message input{
+    padding: 100px;
+}
+
+.form-group button {
+    margin-top: 20px;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding-top: 15px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* footer section */
+
+
+
+
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+.footer-box {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
+    background-color: #777777;
+    height: 80px;
+}
+
+.footer-box-two {
+    position: relative;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
+    background-color: #777777;
+    height: 80px;
+    margin-top: 70px;
+}
